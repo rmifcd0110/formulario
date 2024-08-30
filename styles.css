@@ -1,0 +1,28 @@
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.btn-custom {
+    min-width: 100px;
+}
+
+/* Contraste de enfoque */
+input:focus,
+select:focus {
+    border-color: #4caf50;
+    outline: none;
+    box-shadow: 0 0 5px rbga(76,175,80,0.5);
+}
